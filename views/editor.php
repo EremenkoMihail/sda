@@ -1,0 +1,1 @@
+<?/*Вывод статей*/?><html><body>	<ul>		<li>			<b><a href="new.php">Новая статья</a></b><br><br>		</li>			<? foreach ($articles as $article): ?>			<li>				<a href="article.php?id=<?=$article['id_article']?>" title = "">					<?=$article['title']?>				</a>				<p><?=articles_intro($article)?> ...</p>			</li>		<? endforeach; ?>	</ul></body></html>

@@ -1,0 +1,1 @@
+<?/*Основной шаблон===============$title - заголовок$content - HTML страницы*/?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>	<title><?=$title?></title>	<meta content="text/html" charset=utf-8" http-equiv="content-type"></head><body>	<h1><?=$title?></h1>		<?=$content?>		<p>		<small>Лента новостей<small>	</p></body></html>

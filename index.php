@@ -1,0 +1,1 @@
+<?phpinclude_once('models/news.php');include_once('models/startup.php');startup();// Информация для отображения.$title = 'Главная';// Внутренний шаблон.$content = view_include('views/start.php');// Внешний шаблон.$page = view_include(	'views/index.php',	array('title' => $title, 'content' => $content));// Вывод.echo $page;
